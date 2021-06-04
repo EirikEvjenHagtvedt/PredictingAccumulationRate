@@ -1,5 +1,7 @@
 # PredictingAccumulationRate
-The following model take part in the master thesis submitted by Eirik Evjen Hagtvedt: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten".
+NB! The following model is owned by Eirik Evjen Hagtvedt. 
+
+The model take part in the master thesis submitted by Eirik Evjen Hagtvedt: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten". 
 
 The model is python-based and aims to predict the accumulation rate in sand traps located in the municipality of Horten, Norway. 
 
@@ -14,6 +16,8 @@ The model input the data sets;  Horten's data, field measurement data and GIS da
 
 Horten's data contain the columns; SID, width, accumulation rate measured, and maintenance dates. 
 Field measurement data contain all the columns above plus one column for each measured parameter during field measurements. GIS data contain: slope, flow accumulation, contributing area, construction year and masl. 
+
+Running the model require a CLIENT-ID from frost.met to extract the json-file containing precipitation data.
 
 ## Syntax
 A generalized syntax of the model follow:
@@ -41,14 +45,14 @@ A generalized syntax of the model follow:
 
 ### Citations
 Parts of the code is inspired from the following links:
-[0] https://medium.com/@prashant.nair2050/hands-on-outlier-detection-and-treatment-in-python-using-1-5-iqr-rule-f9ff1961a414
-[1] https://stackoverflow.com/questions/67545499/clean-code-that-runs-getting-the-mean-of-values-in-one-dataframe-based-on-date
-[2] https://www.reddit.com/r/learnpython/comments/n6h12o/how_to_sum_up_rows_given_start_and_end_condition/gx7pq1n/?context=3
-[3] https://stackoverflow.com/questions/42658379/variance-inflation-factor-in-python
-[4] https://towardsdatascience.com/train-a-regression-model-using-a-decision-tree-70012c22bcc1
-[5] https://frost.met.no/python_example.html
-[6] http://www.science.smith.edu/~jcrouser/SDS293/labs/lab10-py.html
-[7] https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b
-[8] https://stackoverflow.com/questions/67106853/how-to-do-point-biserial-correlation-for-multiple-columns-in-one-iteration 
+1. https://medium.com/@prashant.nair2050/hands-on-outlier-detection-and-treatment-in-python-using-1-5-iqr-rule-f9ff1961a414
+2. https://stackoverflow.com/questions/67545499/clean-code-that-runs-getting-the-mean-of-values-in-one-dataframe-based-on-date
+3. https://www.reddit.com/r/learnpython/comments/n6h12o/how_to_sum_up_rows_given_start_and_end_condition/gx7pq1n/?context=3
+4. https://stackoverflow.com/questions/42658379/variance-inflation-factor-in-python
+5. https://towardsdatascience.com/train-a-regression-model-using-a-decision-tree-70012c22bcc1
+6. https://frost.met.no/python_example.html
+7. http://www.science.smith.edu/~jcrouser/SDS293/labs/lab10-py.html
+8. https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b
+9. https://stackoverflow.com/questions/67106853/how-to-do-point-biserial-correlation-for-multiple-columns-in-one-iteration 
 
 NB! I had never used python before starting the thesis. Resulting in sources such as stack overflow actively being used when building the model. The broad spectre of different literature may suggest that snippets of code are not cited.  
