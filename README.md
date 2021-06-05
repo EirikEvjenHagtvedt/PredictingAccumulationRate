@@ -13,7 +13,7 @@ The model is python-based and aims to predict the accumulation rate in sand trap
 
 There is  a wish to provide the code as it may be useful for other municipalities, and especially the municipality of Horten. The model may treat data from a Gemini portal format with preliminary steps. Gemini portal is used by almost every municipality in Norway. 
 
-Feel free to contact Eirik Evjen Hagtvedt; e-mail: eirikehag@gmail.com if there are questions. 
+Feel free to contact Eirik Evjen Hagtvedt if questions. 
 
 The model is last updated: [05/06/2021]
 
