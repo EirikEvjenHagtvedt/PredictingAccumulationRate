@@ -1,9 +1,5 @@
 # PredictingAccumulationRate
-
-
-NB! The following code is owned by Eirik Evjen Hagtvedt and may not be shared without permission. 
-
-The model take part in the master thesis submitted by Eirik Evjen Hagtvedt: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten". 
+This model take part in the master thesis submitted by Eirik Hagtvedt: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten".
 
 There are two separate models provided
 1. FinalDevelopedModel.py - is used to predict the accumulation rate in Horten's sandtraps. It includes the regression models; OLS, Ridge, Lasso, decision tree regressor and evaluation of categorical parameters. The code is developed by Eirik Evjen Hagtvedt.
@@ -61,4 +57,4 @@ Parts of the code is inspired from the following links:
 8. https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b
 9. https://stackoverflow.com/questions/67106853/how-to-do-point-biserial-correlation-for-multiple-columns-in-one-iteration 
 
-NB! I had never used python before starting the thesis. Resulting in sources such as stack overflow actively being used when building the model. The broad spectre of different literature used may suggest that snippets of code are not cited.  
+NB!Python had never been used before starting the thesis. Resulting in sources such as stack overflow actively being used when building the model. The broad spectre of different literature used may suggest that snippets of code are not cited.  
