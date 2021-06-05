@@ -6,7 +6,7 @@ NB! The following code is owned by Eirik Evjen Hagtvedt and may not be shared wi
 The model take part in the master thesis submitted by Eirik Evjen Hagtvedt: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten". 
 
 There are two separate models provided
-1. FinalDevelopedModel.py - is the regression model which includes OLS, Ridge, Lasso, decision tree regressor and evaluation of categorical parameters. The code is developed by Eirik Evjen Hagtvedt.
+1. FinalDevelopedModel.py - is used to predict the accumulation rate in Horten's sandtraps. It includes the regression models; OLS, Ridge, Lasso, decision tree regressor and evaluation of categorical parameters. The code is developed by Eirik Evjen Hagtvedt.
 2. ModelForStratifying.py - is the initial model used for stratifying sampling before field measurements in Horten municipality spring 2021. The code is developed by David Steffelbauer. Thank you David for showing me the fun and usefullness of python! :) 
 
 The model is python-based and aims to predict the accumulation rate in sand traps located in the municipality of Horten, Norway. 
