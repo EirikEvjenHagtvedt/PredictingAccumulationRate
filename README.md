@@ -1,5 +1,5 @@
 # PredictingAccumulationRate
-This model take part in the master thesis submitted by Eirik Hagtvedt: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten".
+This model take part in the master thesis: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten".
 
 There are two separate models provided
 1. FinalDevelopedModel.py - is used to predict the accumulation rate in Horten's sandtraps. It includes the regression models; OLS, Ridge, Lasso, decision tree regressor and evaluation of categorical parameters. The code is developed by Eirik Evjen Hagtvedt.
@@ -7,19 +7,9 @@ There are two separate models provided
 
 The model is python-based and aims to predict the accumulation rate in sand traps located in the municipality of Horten, Norway. 
 
-There is  a wish to provide the code as it may be useful for other municipalities, and especially the municipality of Horten. The model may treat data from a Gemini portal format with preliminary steps. Gemini portal is used by almost every municipality in Norway. 
-
-Feel free to contact Eirik Evjen Hagtvedt if questions. 
-
-The model is last updated: [05/06/2021]
-
 # FinalDevelopedModel.py description
 The model input the data sets;  Horten's data, field measurement data and GIS data from ArcMap.
-
-Horten's data contain the columns; SID, width, accumulation rate measured, and maintenance dates. 
-Field measurement data contain all the columns above plus one column for each measured parameter during field measurements. GIS data contain: slope, flow accumulation, contributing area, construction year and masl. 
-
-Running the model require a CLIENT-ID from frost.met to extract the json-file containing precipitation data.
+Running the model require a CLIENT-ID from frost.met. This is to extract the json-file containing precipitation data. The Frost API from frost.metno is used.
 
 ### Syntax
 A generalized syntax of the model follow:
@@ -56,5 +46,7 @@ Parts of the code is inspired from the following links:
 7. http://www.science.smith.edu/~jcrouser/SDS293/labs/lab10-py.html
 8. https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b
 9. https://stackoverflow.com/questions/67106853/how-to-do-point-biserial-correlation-for-multiple-columns-in-one-iteration 
+
+Last updated: [06/06/2021]
 
 NB!Python had never been used before starting the thesis. Resulting in sources such as stack overflow actively being used when building the model. The broad spectre of different literature used may suggest that snippets of code are not cited.  
