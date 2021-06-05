@@ -1,4 +1,6 @@
 # PredictingAccumulationRate
+
+
 NB! The following model is owned by Eirik Evjen Hagtvedt. 
 
 The model take part in the master thesis submitted by Eirik Evjen Hagtvedt: "Identifying an optimal maintenance schedule for sand traps - A Norwegian case study in Horten". 
