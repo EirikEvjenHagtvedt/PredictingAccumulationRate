@@ -17,7 +17,7 @@ Feel free to contact Eirik Evjen Hagtvedt; e-mail: eirikehag@gmail.com if there 
 
 The model is last updated: [05/06/2021]
 
-## Usage
+# FinalDevelopedModel.py description
 The model input the data sets;  Horten's data, field measurement data and GIS data from ArcMap.
 
 Horten's data contain the columns; SID, width, accumulation rate measured, and maintenance dates. 
@@ -25,7 +25,7 @@ Field measurement data contain all the columns above plus one column for each me
 
 Running the model require a CLIENT-ID from frost.met to extract the json-file containing precipitation data.
 
-## Syntax
+### Syntax
 A generalized syntax of the model follow:
 1. Import data sets.
 2. Merge data sets based on SID number. 
@@ -45,7 +45,7 @@ A generalized syntax of the model follow:
 16. Convert categorical variables to dummy variables. 
 17. Append p-value and PBC for categorical variables. 
 
-## Known syntax errors
+### Known syntax errors
 1. If flow accumulation is input the VIF will not calculate. Reason is not known. Has not been a problem during the thesis as flow accumulation is removed in the preliminary step due to low correlation. 
 2. Warning when mapping dummy variables due to calling the function .loc. May be avoided without problems. 
 
