@@ -47,6 +47,4 @@ Parts of the code is inspired from the following links:
 8. https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b
 9. https://stackoverflow.com/questions/67106853/how-to-do-point-biserial-correlation-for-multiple-columns-in-one-iteration 
 
-Last updated: [06/06/2021]
-
-NB!Python had never been used before starting the thesis. Resulting in sources such as stack overflow actively being used when building the model. The broad spectre of different literature used may suggest that snippets of code are not cited.  
+Last updated: [08/07/2021]
